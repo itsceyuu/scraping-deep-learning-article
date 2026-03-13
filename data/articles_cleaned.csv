@@ -1,0 +1,337 @@
+judul,tahun,penulis,publisher,tipe,kata_kunci,abstrak,pdf_url,thumbnail_path
+Hybrid Deep Reinforcement Learning for Joint Resource Allocation in Multi-Active RIS-Aided Uplink Communications,2025,"Mohamed Shalma, Engy Aly Maher, Ahmed El-Mahdy",arXiv,Preprint,Reconfigurable Intelligent Surfaces (RIS); Deep Reinforcement Learning (DRL); Soft Actor-Critic (SAC); Deep Deterministic Policy Gradient (DDPG),"Active Reconfigurable Intelligent Surfaces (RIS) are
+a promising technology for 6G wireless networks. This paper
+investigates a novel hybrid deep reinforcement learning (DRL)
+framework for resource allocation in a multi-user uplink system
+assisted by multiple active RISs. The objective is to maximize the
+minimum user rate by jointly optimizing user transmit powers,
+active RIS configurations, and base station (BS) beamforming.
+We derive a closed-form solution for optimal beamforming
+and employ DRL algorithmsSoft actor-critic (SAC), deep
+deterministic policy gradient (DDPG), and twin delayed DDPG
+(TD3)to solve the high-dimensional, non-convex power and RIS
+optimization problem. Simulation results demonstrate that SAC
+achieves superior performance with high learning rate leading
+to faster convergence and lower computational cost compared
+to DDPG and TD3. Furthermore, the closed-form of optimally
+beamforming enhances the minimum rate effectively.",https://arxiv.org/pdf/2512.22107,data/thumbnail/arxiv_1.png
+Learning continually with representational drift,2025,"Suzanne van der Veldt, Gido M. van de Ven, Sanne Moorman, Guillaume Etter",arXiv,Preprint,Continual Learning; Representational Drift; Stability-Plasticity Trade-off; Catastrophic Forgetting; Biological Neural Networks; Neuroscience-inspired AI; Non-stationary Data,"Deep artificial neural networks famously struggle to learn from non-stationary streams of data. Without dedicated
+mitigation strategies, continual learning is associated with continuous forgetting of previous tasks and a progressive loss
+of plasticity. Current approaches to continual learning have either focused on increasing the stability of representations
+of past tasks, or on promoting plasticity for future learning. Paradoxically, while animals including humans achieve a
+desirable stability-plasticity trade-off, the responses of biological neurons to external stimuli that are associated with
+stable behaviors gradually change over time. This suggests that, although unstable representations have historically
+been seen as undesirable in artificial systems, they could be a core property of biological neural networks learning
+continually. Here, we examine how linking representational drift to continual learning in biological neural networks could
+inform artificial systems. We highlight the existence of representational drift across numerous animal species and brain
+regions and propose that drift reflects a mixture of homeostatic turnover and learning-related synaptic plasticity. In
+particular, we evaluate how plasticity induced by learning new tasks could induce drift in the representation of previous
+tasks, and how such drift could accumulate across brain regions. In deep artificial neural networks, we propose that
+representational drift is only compatible with approaches that do not explicitly prevent parameter changes to mitigate
+forgetting. Remarkably, jointly promoting plasticity while mitigating forgetting could in principle induce representational
+drift in continual learning. While we argue that drift is a byproduct rather than a solution to incremental learning, its
+investigation could inform approaches to continual learning in artificial systems.",https://arxiv.org/pdf/2512.22045,data/thumbnail/arxiv_2.png
+Deep Learning Based Auction Design for Selling Agricultural Produce through Farmer Collectives to Maximize Nash Social Welfare,2025,"Mayank Ratan Bhardwaj, Vishisht Srihari Rao, Bazil Ahmed, Kartik Sagar, Y. Narahari",arXiv,Preprint,Mechanism Design; Volume Discount Auction; Deep Learning for Auctions; Nash Social Welfare; Farmer Collectives; Incentive Compatibility; Agricultural Markets,"This paper is motivated by the need to design a robust
+market mechanism to benefit farmers (producers of agricultural produce) as well as buyers of agricultural produce
+(consumers). Our proposal is a volume discount auction
+with a Farmer Collective (FC) as the selling agent and
+high volume or retail consumers as buying agents. An FC
+is a cooperative of farmers coming together to harness the
+power of aggregation and economies of scale. Our auction
+mechanism seeks to satisfy fundamental properties such
+as incentive compatibility and individual rationality, and
+an extremely relevant property for the agriculture setting,
+namely, Nash social welfare maximization. Besides satisfying these properties, our proposed auction mechanism
+also ensures that certain practical business constraints are
+met. Since an auction satisfying all of these properties exactly is a theoretical impossibility, we invoke the idea of
+designing deep learning networks that learn such an auction with minimal violation of the desired properties. The
+proposed auction, which we call VDA-SAP (Volume Discount Auction for Selling Agricultural Produce), is superior in many ways to the classical VCG (Vickrey-ClarkeGroves) mechanism in terms of richness of properties satisfied and further outperforms other baseline auctions as
+well. We demonstrate our results for a realistic setting of
+an FC selling perishable vegetables to potential buyers.",https://arxiv.org/pdf/2512.22039,data/thumbnail/arxiv_3.png
+From In Silico to In Vitro: Evaluating Molecule Generative Models for Hit Generation,2025,"Nagham Osman, Vittorio Lembo, Giovanni Bottegoni, Laura Toni",arXiv,Preprint,Hit Identification; De Novo Molecular Design; Generative Models; Hit-like Molecule Generation; Drug Discovery Pipeline; Molecular Diffusion Models; Virtual Screening,"Hit identification is a critical yet resource-intensive step in the drug discovery
+pipeline, traditionally relying on high-throughput screening of large compound
+libraries. Despite advancements in virtual screening, these methods remain timeconsuming and costly. Recent progress in deep learning has enabled the development of generative models capable of learning complex molecular representations
+and generating novel compounds de novo. However, using ML to replace the entire
+drug-discovery pipeline is highly challenging. In this work, we rather investigate
+whether generative models can replace one step of the pipeline: hit-like molecule
+generation. To the best of our knowledge, this is the first study to explicitly frame
+hit-like molecule generation as a standalone task and empirically test whether
+generative models can directly support this stage of the drug discovery pipeline.
+Specifically, we investigate if such models can be trained to generate hit-like
+molecules, enabling direct incorporation into, or even substitution of, traditional
+hit identification workflows. We propose an evaluation framework tailored to this
+task, integrating physicochemical, structural, and bioactivity-related criteria within
+a multi-stage filtering pipeline that defines the hit-like chemical space. Two autoregressive and one diffusion-based generative models were benchmarked across
+various datasets and training settings, with outputs assessed using standard metrics
+and target-specific docking scores. Our results show that these models can generate
+valid, diverse, and biologically relevant compounds across multiple targets, with
+a few selected GSK-3? hits synthesized and confirmed active in vitro. We also
+identify key limitations in current evaluation metrics and available training data",https://arxiv.org/pdf/2512.22031,data/thumbnail/arxiv_4.png
+HWL-HIN: A Hypergraph-Level Hypergraph Isomorphism Network as Powerful as the Hypergraph Weisfeiler-Lehman Test with Application to Higher-Order Network Robustness,2025,"Chengyu Tian, Wenbin Pei",arXiv,Preprint,Hypergraph isomorphism network; network robustness; hypergraph; prediction,"Robustness in complex systems is of significant
+engineering and economic importance. However, conventional
+attack-based a posteriori robustness assessments incur prohibitive
+computational overhead. Recently, deep learning methods, such
+as Convolutional Neural Networks (CNNs) and Graph Neural
+Networks (GNNs), have been widely employed as surrogates
+for rapid robustness prediction. Nevertheless, these methods
+neglect the complex higher-order correlations prevalent in realworld systems, which are naturally modeled as hypergraphs.
+Although Hypergraph Neural Networks (HGNNs) have been
+widely adopted for hypergraph learning, their topological expressive power has not yet reached the theoretical upper bound.
+To address this limitation, inspired by Graph Isomorphism
+Networks, this paper proposes a hypergraph-level Hypergraph
+Isomorphism Network framework. Theoretically, this approach
+is proven to possess an expressive power strictly equivalent to
+the Hypergraph Weisfeiler-Lehman test and is applied to predict
+hypergraph robustness. Experimental results demonstrate that
+while maintaining superior efficiency in training and prediction,
+the proposed method not only outperforms existing graph-based
+models but also significantly surpasses conventional HGNNs in
+tasks that prioritize topological structure representation.",https://arxiv.org/pdf/2512.22014,data/thumbnail/arxiv_5.png
+DuaDeep-SeqAffinity: Dual-Stream Deep Learning Framework for Sequence-Only Antigen-Antibody Affinity Prediction,2025,"Aicha Boutorh, Soumia Bouyahiaoui, Sara Belhadj, Nour El Yakine Guendouz, Manel Kara Laouar",arXiv,Preprint,Dual-Stream Deep Learning; Transformer Encoders; 1D Convolutional Neural Networks; Protein Language Models (ESM-2); Antigen-Antibody Interaction; Affinity Prediction; Amino Acid Sequence-only Modeling,"Predicting the binding affinity between antigens and antibodies is fundamental to drug discovery and
+vaccine development. Traditional computational approaches often rely on experimentally determined
+3D structures, which are scarce and computationally expensive to obtain. This paper introduces
+DuaDeep-SeqAffinity, a novel sequence-only deep learning framework that predicts affinity scores
+solely from their amino acid sequences using a dual-stream hybrid architecture. Our approach
+leverages pre-trained ESM-2 protein language model embeddings, combining 1D Convolutional
+Neural Networks (CNNs) for local motif detection with Transformer encoders for global contextual
+representation. A subsequent fusion module integrates these multi-faceted features, which are then
+passed to a fully connected network for final score regression. Experimental results demonstrate that
+DuaDeep-SeqAffinity significantly outperforms individual architectural components and existing
+state-of-the-art (SOTA) methods. DuaDeep achieved a superior Pearson correlation of 0.688, an
+R2 of 0.460, and a Root Mean Square Error (RMSE) of 0.737, surpassing single-branch variants
+ESM-CNN and ESM-Transformer. Notably, the model achieved an Area Under the Curve (AUC)
+of 0.890, outperforming sequence-only benchmarks and even surpassing structure-sequence hybrid
+models. These findings prove that high-fidelity sequence embeddings can capture essential binding
+patterns typically reserved for structural modeling. By eliminating the reliance on 3D structures,
+DuaDeep-SeqAffinity provides a highly scalable and efficient solution for high-throughput screening
+of vast sequence libraries, significantly accelerating the therapeutic discovery pipeline.",https://arxiv.org/pdf/2512.22007,data/thumbnail/arxiv_6.png
+Cosmic-Ray-Constrained LSTM Model for Geomagnetic Storm Prediction,2025,"Zongyuan Ge, Chenwaner Zhang, Wei Zhou, Hongyu Zeng, Guiping Zhou",arXiv,Preprint,Geomagnetic fields (646)  Cosmic rays (329)  Forbush decreases (546)  Space weather (2037)  Neural networks (1938),"Geomagnetic storms (GSTs) driven by solar wind-magnetosphere coupling can severely disrupt technological systems, motivating the need for improved prediction accuracy and longer warning times. In
+this study, we develop a physics-informed Long Short-Term Memory (LSTM) model that incorporates
+cosmic-ray flux modulation as an additional precursor signal. As coronal mass ejection (CME)-driven
+disturbances propagate through the heliosphere, enhanced turbulence and magnetic-field compression
+reduce galactic cosmic-ray (GCR) flux measured by ground-based neutron monitors (Forbush decreases), providing early information that can precede near-Earth solar-wind signatures by 13 days.
+We integrate multi-source space-weather data, spanning 1995-2020, including cosmic-ray observations,
+solar wind plasma parameters, interplanetary magnetic-field data, and geomagnetic indices. Based on
+these data, we construct a 19-dimensional feature vector that includes flux background levels, decreaserelated indicators, and inter-station correlation measures as model inputs. Employing a 50-unit LSTM
+architecture, the proposed model achieves root-mean-square errors (RMSE) of 5.106 nT, 8.315 nT,
+10.854 nT, 12.883 nT, and 14.788 nT for 2-, 6-, 12-, 24-, and 48-hour predictions, respectively. Incorporating cosmic-ray information further improves 48-hour forecast skill by up to 25.84% (from
+0.178 to 0.224). These results demonstrate the value of physics-informed deep learning and cosmic-ray
+precursors for advancing space-weather forecasting",https://arxiv.org/pdf/2512.22003,data/thumbnail/arxiv_7.png
+A Light Weight Neural Network for Automatic Modulation Classification in OFDM Systems,2025,"Indiwara Nanayakkara, Dehan Jayawickrama, Dasuni Jayawardena, Vijitha R. Herath, Arjuna Madanayake",arXiv,Preprint,Lightweight Neural Network; Orthogonal Frequency-Division Multiplexing (OFDM); Recurrent Neural Network (RNN),"Automatic Modulation Classification (AMC) is a
+vital component in the development of intelligent and adaptive
+transceivers for future wireless communication systems. Existing
+statistically-based blind modulation classification methods for
+Orthogonal Frequency Division Multiplexing (OFDM) often fail
+to achieve the required accuracy and performance. Consequently,
+the modulation classification research community has shifted
+its focus toward deep learning techniques, which demonstrate
+promising performance, but come with increased computational
+complexity. In this paper, we propose a lightweight subcarrierbased modulation classification method for OFDM systems. In
+the proposed approach, a selected set of subcarriers in an
+OFDM frame is classified first, followed by the prediction of
+the modulation types for the remaining subcarriers based on
+the initial results. A Lightweight Neural Network (LWNN) is
+employed to identify the initially selected set of subcarriers, and
+its output is fed into a Recurrent Neural Network (RNN) as
+an embedded vector to predict the modulation schemes of the
+remaining subcarriers in the OFDM frame.",https://arxiv.org/pdf/2512.21941,data/thumbnail/arxiv_8.png
+Drug discovery guided by maximum drug likeness,2025,"Hao-Yu Zhu, Shi-Jie Du, Lu Xu, Wei Shi",arXiv,Preprint,Maximum drug likeness; Deep learning; Virtual screening; Drug discovery," To overcome the high attrition rate and limited clinical translatability in drug
+discovery, we introduce the concept of Maximum Drug-Likeness (MDL) and develop
+an applicable Fivefold MDL strategy (5F-MDL) to reshape the screening paradigm.
+The 5F-MDL strategy integrates an ensemble of 33 deep learning sub-models to
+construct a 33-dimensional property spectrum that quantifies the global phenotypic
+alignment of candidate molecules with clinically approved drugs along five axes:
+physicochemical properties, pharmacokinetics, efficacy, safety, and stability. Using
+drug-likeness scores derived from this 33-dimensional profile, we prioritized 15 highpotential molecules from a 16-million-molecule library. Experimental validation
+demonstrated that the lead compound M2 not only exhibits potent antibacterial activity,
+with a minimum inhibitory concentration (MIC) of 25.6 µg/mL, but also achieves
+binding stability superior to cefuroxime, as indicated by Molecular Mechanics PoissonBoltzmann surface area (MM-PBSA) calculations of -38.54 kcal/mol and a root-meansquare deviation (RMSD) of 2.8 A. This strategy could overcome scaffold constraints
+and offers an efficient route for discovering lead compounds with favorable prospects
+against drug-resistant bacteria",https://arxiv.org/pdf/2512.21895,data/thumbnail/arxiv_9.png
+S&P 500 Stock's Movement Prediction using CNN,2025,Rahul Gupta,arXiv,Preprint,Stock Market Prediction; Convolutional Neural Networks (CNN); S&P 500; Multivariate Time Series; Algorithmic Trading; Deep Learning for Finance; Raw Financial Data,"This paper is about predicting the movement of stock
+consist of S&P 500 index. Historically there are many
+approaches have been tried using various methods to
+predict the stock movement and being used in the market
+currently for algorithm trading and alpha generating
+systems using traditional mathematical approaches [1, 2]
+.
+The success of artificial neural network recently created a
+lot of interest and paved the way to enable prediction
+using cutting-edge research in the machine learning and
+deep learning. Some of these papers have done a great job
+in implementing and explaining benefits of these new
+technologies. Although most these papers do not go into
+the complexity of the financial data and mostly utilize
+single dimension data, still most of these papers were
+successful in creating the ground for future research in
+this comparatively new phenomenon.
+In this paper, I am trying to use multivariate raw data
+including stock split/dividend events (as-is) present in
+real-world market data instead of engineered financial
+data. Convolution Neural Network (CNN), the best-known
+tool so far for image classification, is used on the multidimensional stock numbers taken from the market
+mimicking them as a vector of historical data matrices
+(read images) and the model achieves promising results.
+The predictions can be made stock by stock, i.e., a single
+stock, sector-wise or for the portfolio of stocks. ",https://arxiv.org/pdf/2512.21804,data/thumbnail/arxiv_10.png
+AI for Mycetoma Diagnosis in Histopathological Images: The MICCAI 2024 Challenge,2025,"Hyam Omar Ali, Sahar Alhesseen, Lamis Elkhair, Adrian Galdran, Ming Feng, Zhixiang Xiong, Zengming Lin, Kele Xu, Liang Hu, Benjamin Keel, Oliver Mills, James Battye, Akshay Kumar, Asra Aslam, Prasad Dutande, Ujjwal Baid, Bhakti Baheti, Suhas Gajre, Aravind Shrenivas Murali, Eung-Joo Lee, Ahmed Fahal, Rachid Jennane",arXiv,Preprint,Artificial intelligence; Histopathology image analysis; Segmentation; Classification; Mycetoma diagnosis; Computer-aided diagnosis,"Mycetoma is a neglected tropical disease caused by fungi or bacteria leading
+to severe tissue damage and disabilities. It affects poor and rural communities and presents medical challenges and socioeconomic burdens on patients and
+healthcare systems in endemic regions worldwide. Mycetoma diagnosis is a major
+challenge in mycetoma management, particularly in low-resource settings where
+expert pathologists are limited. To address this challenge, this paper presents an
+overview of the Mycetoma MicroImage: Detect and Classify Challenge (mAIcetoma) which was organized to advance mycetoma diagnosis through AI solutions.
+mAIcetoma focused on developing automated models for segmenting mycetoma
+grains and classifying mycetoma types from histopathological images. The challenge attracted the attention of several teams worldwide to participate and five
+finalist teams fulfilled the challenge objectives. The teams proposed various deep
+learning architectures for the ultimate goal of this challenge. Mycetoma database
+(MyData) was provided to participants as a standardized dataset to run the proposed models. Those models were evaluated using evaluation metrics. Results
+showed that all the models achieved high segmentation accuracy, emphasizing
+the necessitate of grain detection as a critical step in mycetoma diagnosis. In
+addition, the top-performing models show a significant performance in classifying
+mycetoma types.",https://arxiv.org/pdf/2512.21792,data/thumbnail/arxiv_11.png
+Inference-based GAN Video Generation,2025,"Jingbo Yang, Adrian G. Bors",arXiv,Preprint,Video generation; Generative Adversarial Networks; Variational Autoencoder; VAE-GAN; longvideo generation; Markov chain,"Video generation has seen remarkable progress thanks
+to advancements in generative deep learning. However, generating long sequences remains a significant
+challenge. Generated videos should not only display
+coherent and continuous movement but also meaningful movement in successions of scenes. Models such as
+GANs, VAEs, and Diffusion Networks have been used
+for generating short video sequences, typically up to 16
+frames. In this paper, we first propose a new type of
+video generator by enabling adversarial-based unconditional video generators with a variational encoder,
+akin to a VAE-GAN hybrid structure. The proposed
+model, as in other video deep learning-based processing frameworks, incorporates two processing branches,
+one for content and another for movement. However,
+existing models struggle with the temporal scaling of
+the generated videos. Classical approaches often result
+in degraded video quality when attempting to increase
+the generated video length, especially for significantly
+long sequences. To overcome this limitation, our research study extends the initially proposed VAE-GAN
+video generation model by employing a novel, memoryefficient approach to generate long videos composed of
+hundreds or thousands of frames ensuring their temporal continuity, consistency and dynamics. Our approach leverages a Markov chain framework with a recall mechanism, where each state represents a shortlength VAE-GAN video generator. This setup enables the sequential connection of generated video subsequences, maintaining temporal dependencies and resulting in meaningful long video sequences.",https://arxiv.org/pdf/2512.21776,data/thumbnail/arxiv_12.png
+A-QCF-Net: An Adaptive Quaternion Cross-Fusion Network for Multimodal Liver Tumor Segmentation from Unpaired Datasets,2025,"Arunkumar V, Firos V M, Senthilkumar S, Gangadharan G R",arXiv,Preprint,Cross-Attention; Deep Learning; Explainable AI; Grad-CAM; Medical Image Segmentation; Multimodal Learning; Quaternion Neural Networks; Unpaired Data,"Multimodal medical imaging provides complementary information that is crucial for accurate delineation of pathology, but the development of deep learning models is limited by
+the scarcity of large datasets in which different modalities are paired and spatially aligned.
+This paper addresses this fundamental limitation by proposing an Adaptive Quaternion
+Cross-Fusion Network (A-QCF-Net) that learns a single unified segmentation model from
+completely separate and unpaired CT and MRI cohorts. The architecture exploits the
+parameter efficiency and expressive power of Quaternion Neural Networks to construct
+a shared feature space. At its core is the Adaptive Quaternion Cross-Fusion (A-QCF)
+block, a data driven attention module that enables bidirectional knowledge transfer between the two streams. By learning to modulate the flow of information dynamically, the
+A-QCF block allows the network to exchange abstract modality specific expertise, such
+as the sharp anatomical boundary information available in CT and the subtle soft tissue
+contrast provided by MRI. This mutual exchange regularizes and enriches the feature
+representations of both streams. We validate the framework by jointly training a single model on the unpaired LiTS (CT) and ATLAS (MRI) datasets. The jointly trained
+model achieves Tumor Dice scores of 76.7% on CT and 78.3% on MRI, significantly exceeding the strong unimodal nnU-Net baseline by margins of 5.4% and 4.7% respectively.
+Furthermore, comprehensive explainability analysis using Grad-CAM and Grad-CAM++
+confirms that the model correctly focuses on relevant pathological structures, ensuring
+the learned representations are clinically meaningful. This provides a robust and clinically viable paradigm for unlocking the large unpaired imaging archives that are common
+in healthcare.",https://arxiv.org/pdf/2512.21760,data/thumbnail/arxiv_13.png
+An Information Theoretic Perspective on Agentic System Design,2025,"Shizhe He, Avanika Narayan, Ishan S. Khare, Scott W. Linderman, Christopher Ré, Dan Biderman",arXiv,Preprint,Agentic Language Models; Context Compression; Information Theory; Mutual Information; Compressor-Predictor Architecture; Token Efficiency; Efficient Inference,"Agentic language model (LM) systems power modern applications like Deep Research and Claude
+Code, and leverage multi-LM architectures to overcome context limitations. Beneath their apparent
+diversity lies a recurring pattern: smaller compressor LMs (that can even run locally) distill raw context
+into compact text that is then consumed by larger predictor LMs. Despite their popularity, the design
+of compressor-predictor systems remains largely ad hoc, with little guidance on how compressor and
+predictor choices shape downstream performance. In practice, attributing gains to compression versus
+prediction requires costly, task-specific pairwise sweeps. We argue that these agentic system design
+questions are, at root, information-theoretic. Viewing the compressor LM as a noisy channel, we introduce
+a simple estimator of mutual information between the context and its compression to quantify compression
+quality in a task-independent way. We show that mutual information strongly predicts downstream
+performance, independent of any specific task. Through an information-theoretic framework, we perform a
+comprehensive empirical analysis across five datasets and three model families. Results reveal that larger
+compressors not only are more accurate, but also more token-efficient, conveying more bits of information
+per token. A 7B Qwen-2.5 compressor, for instance, is 1.6x more accurate, 4.6x more concise, and
+conveys 5.5x more bits of mutual information per token than its 1.5B sibling. Across datasets, scaling
+compressors is substantially more effective than scaling predictors, enabling larger on-device compressors
+to pair with smaller cloud predictors. Applied to a Deep Research system, these principles enable local
+compressors as small as 3B parameters to recover 99% of frontier-LM accuracy at 26% of API costs.",https://arxiv.org/pdf/2512.21720,data/thumbnail/arxiv_14.png
+Zero-Shot to Zero-Lies: Detecting Bengali Deepfake Audio through Transfer Learning,2025,"Most. Sharmin Sultana Samu, Md. Rakibul Islam, Md. Zahid Hossain, Md. Kamrozzaman Bhuiyan, Farhad Uz Zaman",arXiv,Preprint,Bengali deepfake audio detection; audio forgery detection; synthetic audio detection; fake voice detection; Wav2Vec2,"The rapid growth of speech synthesis and voice
+conversion systems has made deepfake audio a major security
+concern. Bengali deepfake detection remains largely unexplored.
+In this work, we study automatic detection of Bengali audio
+deepfakes using the BanglaFake dataset. We evaluate zeroshot inference with several pretrained models. These include
+Wav2Vec2-XLSR-53, Whisper, PANNsCNN14, WavLM and
+Audio Spectrogram Transformer. Zero-shot results show limited
+detection ability. The best model, Wav2Vec2-XLSR-53, achieves
+53.80% accuracy, 56.60% AUC and 46.20% EER. We then
+fine-tune multiple architectures for Bengali deepfake detection.
+These include Wav2Vec2-Base, LCNN, LCNN-Attention,
+ResNet18, ViT-B16 and CNN-BiLSTM. Fine-tuned models
+show strong performance gains. ResNet18 achieves the highest
+accuracy of 79.17%, F1 score of 79.12%, AUC of 84.37% and
+EER of 24.35%. Experimental results confirm that fine-tuning
+significantly improves performance over zero-shot inference.
+This study provides the first systematic benchmark of Bengali
+deepfake audio detection. It highlights the effectiveness of
+fine-tuned deep learning models for this low-resource language.",https://arxiv.org/pdf/2512.21702,data/thumbnail/arxiv_15.png
+Comparative Analysis of Deep Learning Models for Perception in Autonomous Vehicles,2025,Jalal Khan,arXiv,Preprint,Deep learning; YOLO-NAS; YOLOv8; Perception; Autonomous vehicles,"Recently, a plethora of machine learning (ML) and deep learning (DL) algorithms have been proposed to achieve the efficiency, safety, and reliability of
+autonomous vehicles (AVs). The AVs use a perception system to detect, localize,
+and identify other vehicles, pedestrians, and road signs to perform safe navigation and decision-making. In this paper, we compare the performance of DL
+models, including YOLO-NAS and YOLOv8, for a detection-based perception
+task. We capture a custom dataset and experiment with both DL models using
+our custom dataset. Our analysis reveals that the YOLOv8s model saves 75%
+of training time compared to the YOLO-NAS model. In addition, the YOLOv8s
+model (83%) outperforms the YOLO-NAS model (81%) when the target is to
+achieve the highest object detection accuracy. These comparative analyses of
+these new emerging DL models will allow the relevant research community to
+understand the models performance under real-world use case scenarios",https://arxiv.org/pdf/2512.21673,data/thumbnail/arxiv_16.png
+MAD-NG: Meta-Auto-Decoder Neural Galerkin Method for Solving Parametric Partial Differential Equations,2025,"Qiuqi Li, Yiting Liu, Jin Zhao, Wencan Zhu",arXiv,Preprint,Parametric partial differential equations; Deep learning; Neural Galerkin method; Meta-Auto-Decoder,"Parametric partial differential equations (PDEs) are fundamental for modeling
+a wide range of physical and engineering systems influenced by uncertain or varying parameters. Traditional neural network-based solvers, such as Physics-Informed
+Neural Networks (PINNs) and Deep Galerkin Methods, often face challenges in
+generalization and long-time prediction efficiency due to their dependence on full
+space-time approximations. To address these issues, we propose a novel and scalable framework that significantly enhances the Neural Galerkin Method (NGM) by incorporating the Meta-Auto-Decoder (MAD) paradigm. Our approach leverages
+space-time decoupling to enable more stable and efficient time integration, while
+meta-learning-driven adaptation allows rapid generalization to unseen parameter
+configurations with minimal retraining. Furthermore, randomized sparse updates
+effectively reduce computational costs without compromising accuracy. Together,
+these advancements enable our method to achieve physically consistent, long-horizon
+predictions for complex parameterized evolution equations with significantly lower
+computational overhead. Numerical experiments on benchmark problems demonstrate that our methods performs comparatively well in terms of accuracy, robustness, and adaptability.",https://arxiv.org/pdf/2512.21633,data/thumbnail/arxiv_17.png
+Embedding Samples Dispatching for Recommendation Model Training in Edge Environments,2025,"Guopeng Li, Haisheng Tan, Chi Zhang, Hongqiu Ni, Zilong Wang, Xinyue Zhang, Yang Xu, Han Tian",arXiv,Preprint,edge computing; embedding cache; recommendation model,"Training deep learning recommendation models (DLRMs) on edge
+workers brings several benefits, particularly in terms of data privacy
+protection, low latency and personalization. However, due to the
+huge size of embedding tables, typical DLRM training frameworks
+adopt one or more parameter servers to maintain global embedding
+tables, while leveraging the edge workers cache part of them. This
+incurs significant transmission cost for embedding transmissions
+between workers and parameter servers, which can dominate the
+training cycle. In this paper, we investigate how to dispatch input embedding samples to appropriate edge workers to minimize
+the total embedding transmission cost when facing edge-specific
+challenges such as heterogeneous networks and limited resources.
+We develop ESD, a novel mechanism that optimizes the dispatch of
+input embedding samples to edge workers based on expected embedding transmission cost. We propose HybridDis as the dispatch
+decision method within ESD, which combines a resource-intensive
+optimal algorithm and a heuristic algorithm to balance decision
+quality and resource consumption. We implement a prototype of
+ESD and compare it with state-of-the-art mechanisms on real-world
+workloads. Extensive experimental results show that ESD reduces
+the embedding transmission cost by up to 36.76% and achieves up
+to 1.74x speedup in end-to-end DLRM training.",https://arxiv.org/pdf/2512.21615,data/thumbnail/arxiv_18.png
+Robustness and Scalability Of Machine Learning for Imbalanced Clinical Data in Emergency and Critical Care,2025,"Yusuf Brima, Marcellin Atemkeng",arXiv,Preprint,Emergency Medicine; Intensive Care; Clinical Artificial Intelligence; Deep Learning; Machine Learning; Class Imbalance; Predictive Modeling; Electronic Health Record Data,"Emergency and intensive care environments require predictive models that are both accurate and computationally efficient, yet
+clinical (tabular) data in these settings are often severely imbalanced. Such skewness undermines model reliability, particularly
+for rare but clinically crucial outcomes, making robustness and scalability essential for real-world usage.
+In this paper, we systematically evaluate the robustness and scalability of classical machine learning models on imbalanced
+tabular data from two large-scale clinical datasets (MIMIC-IV-ED and eICU). Class imbalance was quantified using complementary metrics, and we compared the performance of tree-based methods (Decision Tree, Random Forest, XGBoost),
+the state-of-the-art TabNet deep learning model, and a custom lightweight residual network (TabResNet). TabResNet was
+designed as a computationally efficient alternative to TabNet, replacing its complex attention mechanisms with a streamlined
+residual architecture to maintain representational capacity for real-time clinical use. All models were optimized via a Bayesian
+hyperparameter search and assessed on predictive performance (weighted F1-score), robustness to increasing imbalance,
+and computational scalability. Our objective was to provide evidence-based guidance for model selection in acute care settings.
+Our results, on seven clinically vital predictive tasks, show that tree-based methods, particularly XGBoost (an ensemble model
+family), consistently achieved the most stable performance across imbalance levels and scaled efficiently with sample size.
+Deep tabular models degraded more sharply under imbalance and incurred higher computational costs, while TabResNet
+provided a lighter alternative to TabNet but did not surpass ensemble benchmarks.
+These findings indicate that in emergency and critical care, robustness to imbalance and computational scalability could
+outweigh architectural complexity. Tree-based ensemble methods currently offer the most practical and clinically feasible choice,
+equipping practitioners with a framework for selecting models suited to high-stakes, time-sensitive environments.",https://arxiv.org/pdf/2512.21602,data/thumbnail/arxiv_19.png
+Residual Prior Diffusion: A Probabilistic Framework Integrating Coarse Latent Priors with Diffusion Models,2025,Takuro Kutsuna,arXiv,Preprint,Residual Prior Diffusion (RPD); Diffusion Models; Deep Generative Modeling; Multiscale Structure; Evidence Lower Bound (ELBO); Two-stage Framework; Hierarchical Modeling,"Diffusion models have become a central tool in deep generative modeling, but standard formulations
+rely on a single network and a single diffusion schedule to transform a simple prior, typically a standard normal distribution, into the target data distribution. As a result, the model must simultaneously
+represent the global structure of the distribution and its fine-scale local variations, which becomes difficult when these scales are strongly mismatched. This issue arises both in natural images, where coarse
+manifold-level structure and fine textures coexist, and in low-dimensional distributions with highly concentrated local structure. To address this issue, we propose Residual Prior Diffusion (RPD), a two-stage
+framework in which a coarse prior model first captures the large-scale structure of the data distribution,
+and a diffusion model is then trained to represent the residual between the prior and the target data distribution. We formulate RPD as an explicit probabilistic model with a tractable evidence lower bound,
+whose optimization reduces to the familiar objectives of noise prediction or velocity prediction. We further
+introduce auxiliary variables that leverage information from the prior model and theoretically analyze
+how they reduce the difficulty of the prediction problem in RPD. Experiments on synthetic datasets with
+fine-grained local structure show that standard diffusion models fail to capture local details, whereas
+RPD accurately captures fine-scale detail while preserving the large-scale structure of the distribution.
+On natural image generation tasks, RPD achieved generation quality that matched or exceeded that of
+representative diffusion-based baselines and it maintained strong performance even with a small number
+of inference steps.",https://arxiv.org/pdf/2512.21593,data/thumbnail/arxiv_20.png
